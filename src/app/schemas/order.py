@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from typing import List
+from typing import List, Literal
 
 
 class OrderSchema(BaseModel):
@@ -20,3 +20,8 @@ class OrderSchema(BaseModel):
     delivery_method: str
     delivery_adress: str
     phones: List[str]
+
+
+class OrderResponse(BaseModel):
+    status: Literal["ok"] = "ok"
+    data: str

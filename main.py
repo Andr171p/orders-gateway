@@ -1,18 +1,16 @@
-import pika
+from fastapi import FastAPI
+
+from src.app.routers.orders import orders_router
+from src.app.middlewares.globals import GlobalMiddleware
+from src.app.application import lifespan
+from src.config import config
 
 
-connection_params = pika.ConnectionParameters(
-    host='localhost',
-    port=5672,
-    virtual_host='/',
-    credentials=pika.PlainCredentials(
-        username='guest',
-        password='guest'
-    )
+app = FastAPI(
+    title=config.app.name,
+    lifespan=lifespan
 )
 
+app.include_router(orders_router)
 
-connection = pika.BlockingConnection(connection_params)
-
-
-channel = connection.channel()
+app.add_middleware(GlobalMiddleware)

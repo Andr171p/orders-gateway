@@ -43,5 +43,6 @@ class RMQConnection:
     async def transaction(self) -> AsyncGenerator[AbstractTransaction]:
         await self.connect()
         async with self._connection:
+            await self.create_queue()
             async with self._channel.transaction():
                 yield
