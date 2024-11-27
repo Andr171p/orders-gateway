@@ -7,7 +7,7 @@ from src.app import utils
 
 
 orders_router = APIRouter(
-    prefix="/orders",
+    prefix="/api/orders",
     tags=["Orders"]
 )
 
