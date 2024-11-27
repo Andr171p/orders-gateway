@@ -1,5 +1,6 @@
 # API Docs
 **URL:** https://orders-rmq-broker-production.up.railway.app
+**Swagger:**https://orders-rmq-broker-production.up.railway.app/docs
 ## Methods:
 ### POST /api/orders/push/
 **data:**
