@@ -9,6 +9,7 @@ from src.config import config
 
 app = FastAPI(
     title=config.app.name,
+    redirect_slashes=False
     # lifespan=lifespan
 )
 
