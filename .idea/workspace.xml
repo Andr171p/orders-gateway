@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b2128f4-dfae-4c06-a096-d95ecedd1a58" name="Changes" comment="[orders-rmq-broker] 28.11.2024 fix">
-      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="4b2128f4-dfae-4c06-a096-d95ecedd1a58" name="Changes" comment="[orders-rmq-broker] 01.12.2024 fix-307-redirects">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/routers/orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/routers/orders.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,17 +32,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.config.executor": "Run",
-    "Python.connection.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.producer.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/andre/TyuiuRecSys"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.config.executor&quot;: &quot;Run&quot;,
+    &quot;Python.connection.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.producer.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/andre/TyuiuRecSys&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.producer">
     <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OrdersBroadcastAPI" />
@@ -190,7 +189,31 @@
       <option name="project" value="LOCAL" />
       <updated>1732742845220</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[orders-rmq-broker] 28.11.2024 upgrade + Readme">
+      <option name="closed" value="true" />
+      <created>1732744171893</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732744171893</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[orders-rmq-broker] 28.11.2024 Readme + swagger">
+      <option name="closed" value="true" />
+      <created>1732744350877</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732744350877</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[orders-rmq-broker] 01.12.2024 fix-307-redirects">
+      <option name="closed" value="true" />
+      <created>1733037891161</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733037891161</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -198,6 +221,9 @@
     <MESSAGE value="[orders-rmq-broker] 27.11.2024" />
     <MESSAGE value="[orders-rmq-broker] 28.11.2024" />
     <MESSAGE value="[orders-rmq-broker] 28.11.2024 fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="[orders-rmq-broker] 28.11.2024 fix" />
+    <MESSAGE value="[orders-rmq-broker] 28.11.2024 upgrade + Readme" />
+    <MESSAGE value="[orders-rmq-broker] 28.11.2024 Readme + swagger" />
+    <MESSAGE value="[orders-rmq-broker] 01.12.2024 fix-307-redirects" />
+    <option name="LAST_COMMIT_MESSAGE" value="[orders-rmq-broker] 01.12.2024 fix-307-redirects" />
   </component>
 </project>
