@@ -15,7 +15,7 @@ orders_router = APIRouter(
 
 @orders_router.post(path='/push/', response_model=OrderResponse)
 async def push_order(order: OrderSchema) -> JSONResponse | HTTPException:
-    if order.project != "Дисконт суши":
+    if order.project != "Дисконт Суши":
         return HTTPException(
             status_code=400,
             detail="Project != `Дисконт суши`"
