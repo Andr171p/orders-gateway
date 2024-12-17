@@ -6,7 +6,7 @@ from src.config import config
 
 
 async def publish(
-        message: str,
+        message: Message,
         routing_key: str = config.queue.name
 ) -> None:
     connection = await aio_pika.connect_robust(
@@ -19,7 +19,7 @@ async def publish(
             durable=config.queue.durable
         )
         await channel.default_exchange.publish(
-            message=Message(body=message.encode("utf-8")),
+            message=message,
             routing_key=queue.name
         )
         logger.info(f"[x] Sent message [{message!r}] for `{routing_key}`")

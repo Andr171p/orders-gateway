@@ -2,9 +2,10 @@ from fastapi import APIRouter
 from fastapi.responses import JSONResponse
 from fastapi.exceptions import HTTPException
 
-from src.app.schemas.order import OrderSchema, OrderResponse
+from src.rmq.message import create_message
 from src.rmq import producer
-from src.app import utils
+from src.api_v1.schemas.order import OrderSchema, OrderResponse
+from src.api_v1 import utils
 
 
 orders_router = APIRouter(
@@ -15,16 +16,16 @@ orders_router = APIRouter(
 
 @orders_router.post(path='/push/', response_model=OrderResponse)
 async def push_order(order: OrderSchema) -> JSONResponse | HTTPException:
-    if order.project != "Дисконт Суши":
-        return HTTPException(
-            status_code=400,
-            detail="Project != `Дисконт суши`"
-        )
-    message = utils.to_json(order.model_dump())
-    await producer.publish(message=message)
+    project: str = order.project
+    body: str = utils.to_json(order.model_dump())
+    message = create_message(
+        body=body,
+        project=project
+    )
+    await producer.publish(message)
     return JSONResponse(
         content={
             "status": "ok",
-            "data": "message sent successfully"
+            "data": "message sent successfully to ..."
         }
     )

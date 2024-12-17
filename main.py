@@ -1,9 +1,9 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from src.app.routers.orders import orders_router
-from src.app.middlewares.globals import GlobalMiddleware
-from src.app.application import lifespan
+from src.api_v1.routers.orders import orders_router
+from src.api_v1.middlewares.globals import GlobalMiddleware
+from src.api_v1.application import lifespan
 from src.config import config
 
 
