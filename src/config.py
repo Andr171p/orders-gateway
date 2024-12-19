@@ -18,10 +18,12 @@ class RabbitLocalSettings(BaseSettings):
 
 
 class RabbitSettings(BaseSettings):
+    user: str = os.getenv("RMQ_PUBLIC_USER")
+    password: str = os.getenv("RMQ_PUBLIC_PASSWORD")
     host: str = os.getenv("RMQ_PUBLIC_HOST")
     port: str = os.getenv("RMQ_PUBLIC_PORT")
 
-    url: str = f"amqp://{host}:{port}"
+    url: str = f"amqp://{user}:{password}@{host}:{port}"
 
     queue_name: str = "orders"
     durable: bool = False
