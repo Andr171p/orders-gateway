@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b2128f4-dfae-4c06-a096-d95ecedd1a58" name="Changes" comment="[orders-rmq-broker] 20.12.2024 upgrade">
+    <list default="true" id="4b2128f4-dfae-4c06-a096-d95ecedd1a58" name="Changes" comment="[orders-rmq-broker] 20.12.2024 production">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +253,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734641388437</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="[orders-rmq-broker] 20.12.2024 fix api name">
+      <option name="closed" value="true" />
+      <created>1734641705838</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1734641705838</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[orders-rmq-broker] 20.12.2024 production">
+      <option name="closed" value="true" />
+      <created>1734645650598</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1734645650598</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -269,6 +285,8 @@
     <MESSAGE value="[orders-rmq-broker] 18.12.2024 project headers in rmq" />
     <MESSAGE value="[orders-rmq-broker] 20.12.2024 new rabbit service" />
     <MESSAGE value="[orders-rmq-broker] 20.12.2024 upgrade" />
-    <option name="LAST_COMMIT_MESSAGE" value="[orders-rmq-broker] 20.12.2024 upgrade" />
+    <MESSAGE value="[orders-rmq-broker] 20.12.2024 fix api name" />
+    <MESSAGE value="[orders-rmq-broker] 20.12.2024 production" />
+    <option name="LAST_COMMIT_MESSAGE" value="[orders-rmq-broker] 20.12.2024 production" />
   </component>
 </project>
