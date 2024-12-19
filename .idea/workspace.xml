@@ -4,17 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b2128f4-dfae-4c06-a096-d95ecedd1a58" name="Changes" comment="[orders-rmq-broker] 12.12.2024 fix">
-      <change afterPath="$PROJECT_DIR$/src/rmq/message.py" afterDir="false" />
+    <list default="true" id="4b2128f4-dfae-4c06-a096-d95ecedd1a58" name="Changes" comment="[orders-rmq-broker] 18.12.2024 project headers in rmq">
+      <change afterPath="$PROJECT_DIR$/src/rabbit_mq/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rabbit_mq/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rabbit_mq/exc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rabbit_mq/exchange.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rabbit_mq/publish.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api_v1/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api_v1/application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/middlewares/globals.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api_v1/middlewares/globals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/routers/orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api_v1/routers/orders.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/schemas/order.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api_v1/schemas/order.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api_v1/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rmq/producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/rmq/producer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api_v1/routers/orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api_v1/routers/orders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rmq/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/rabbit_mq/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rmq/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rmq/message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rmq/producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/rabbit_mq/producer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +53,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/andre/TyuiuRecSys&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.producer">
+  <component name="RunManager" selected="Python.config">
     <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OrdersBroadcastAPI" />
       <option name="ENV_FILES" value="" />
@@ -142,8 +144,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.producer" />
         <item itemvalue="Python.config" />
+        <item itemvalue="Python.producer" />
         <item itemvalue="Python.connection" />
         <item itemvalue="Python.main" />
       </list>
@@ -237,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734003473706</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[orders-rmq-broker] 18.12.2024 project headers in rmq">
+      <option name="closed" value="true" />
+      <created>1734469383688</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1734469383688</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -250,6 +260,7 @@
     <MESSAGE value="[orders-rmq-broker] 01.12.2024 fix-307-redirects" />
     <MESSAGE value="[orders-rmq-broker] 12.12.2024 HTTPException" />
     <MESSAGE value="[orders-rmq-broker] 12.12.2024 fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="[orders-rmq-broker] 12.12.2024 fix" />
+    <MESSAGE value="[orders-rmq-broker] 18.12.2024 project headers in rmq" />
+    <option name="LAST_COMMIT_MESSAGE" value="[orders-rmq-broker] 18.12.2024 project headers in rmq" />
   </component>
 </project>

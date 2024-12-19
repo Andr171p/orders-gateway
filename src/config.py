@@ -11,20 +11,19 @@ ENV_PATH: Path = BASE_DIR / ".env"
 load_dotenv(dotenv_path=ENV_PATH)
 
 
-class RMQLocalConfig(BaseSettings):
+class RabbitLocalSettings(BaseSettings):
     host: str = os.getenv("RMQ_LOCAL_HOST")
     port: int = os.getenv("RMQ_LOCAL_PORT")
     url: str = f"amqp://{host}:{port}"
 
 
-class RMQConfig(BaseSettings):
+class RabbitSettings(BaseSettings):
     host: str = os.getenv("RMQ_PUBLIC_HOST")
     port: str = os.getenv("RMQ_PUBLIC_PORT")
+
     url: str = f"amqp://{host}:{port}"
 
-
-class QueueConfig(BaseSettings):
-    name: str = "orders"
+    queue_name: str = "orders"
     durable: bool = False
 
 
@@ -33,16 +32,15 @@ class UvicornSettings(BaseSettings):
     port: int = "8000"
 
 
-class AppConfig(BaseSettings):
+class APISettings(BaseSettings):
     name: str = "orders-broadcast-API"
 
 
-class Config(BaseSettings):
-    app: AppConfig = AppConfig()
-    rmq_local: RMQLocalConfig = RMQLocalConfig()
-    rmq: RMQConfig = RMQConfig()
-    queue: QueueConfig = QueueConfig()
+class Settings(BaseSettings):
+    api: APISettings = APISettings()
+    rabbit_local: RabbitLocalSettings = RabbitLocalSettings()
+    rabbit: RabbitSettings = RabbitSettings()
     uvicorn: UvicornSettings = UvicornSettings()
 
 
-config = Config()
+settings = Settings()
