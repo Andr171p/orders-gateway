@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b2128f4-dfae-4c06-a096-d95ecedd1a58" name="Changes" comment="[orders-rmq-broker] 18.12.2024 project headers in rmq">
-      <change afterPath="$PROJECT_DIR$/src/rabbit_mq/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rabbit_mq/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rabbit_mq/exc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rabbit_mq/exchange.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rabbit_mq/publish.py" afterDir="false" />
+    <list default="true" id="4b2128f4-dfae-4c06-a096-d95ecedd1a58" name="Changes" comment="[orders-rmq-broker] 20.12.2024 upgrade">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api_v1/routers/orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api_v1/routers/orders.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rmq/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/rabbit_mq/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rmq/logger.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rmq/message.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rmq/producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/rabbit_mq/producer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +237,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734469383688</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="[orders-rmq-broker] 20.12.2024 new rabbit service">
+      <option name="closed" value="true" />
+      <created>1734640734652</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1734640734652</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[orders-rmq-broker] 20.12.2024 upgrade">
+      <option name="closed" value="true" />
+      <created>1734641388437</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1734641388437</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -261,6 +267,8 @@
     <MESSAGE value="[orders-rmq-broker] 12.12.2024 HTTPException" />
     <MESSAGE value="[orders-rmq-broker] 12.12.2024 fix" />
     <MESSAGE value="[orders-rmq-broker] 18.12.2024 project headers in rmq" />
-    <option name="LAST_COMMIT_MESSAGE" value="[orders-rmq-broker] 18.12.2024 project headers in rmq" />
+    <MESSAGE value="[orders-rmq-broker] 20.12.2024 new rabbit service" />
+    <MESSAGE value="[orders-rmq-broker] 20.12.2024 upgrade" />
+    <option name="LAST_COMMIT_MESSAGE" value="[orders-rmq-broker] 20.12.2024 upgrade" />
   </component>
 </project>

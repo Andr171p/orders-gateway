@@ -7,7 +7,7 @@ from src.config import settings
 
 
 app = FastAPI(
-    title=settings.app.name,
+    title=settings.api.name,
     redirect_slashes=False
 )
 
