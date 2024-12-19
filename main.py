@@ -3,14 +3,12 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from src.api_v1.routers.orders import orders_router
 from src.api_v1.middlewares.globals import GlobalMiddleware
-from src.api_v1.application import lifespan
-from src.config import config
+from src.config import settings
 
 
 app = FastAPI(
-    title=config.app.name,
+    title=settings.app.name,
     redirect_slashes=False
-    # lifespan=lifespan
 )
 
 app.include_router(orders_router)
