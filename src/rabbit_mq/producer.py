@@ -26,4 +26,5 @@ class RabbitProducer(RabbitClient):
             message=message,
             routing_key=settings.rabbit.queue_name
         )
+        print(body)
         log.info("Published message: %s", body)
