@@ -8,6 +8,7 @@ async def publish(
         headers: Dict[str, Any]
 ) -> None:
     async with RabbitProducer() as producer:
+        await producer.declare_exchange()
         await producer.produce_message(
             body=body,
             headers=headers

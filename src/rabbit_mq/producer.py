@@ -17,6 +17,7 @@ class RabbitProducer(RabbitClient):
             body: str,
             headers: Dict[str, Any]
     ) -> None:
+        # await self.declare_exchange()
         message = Message(
             body=body.encode('utf-8'),
             headers=headers,

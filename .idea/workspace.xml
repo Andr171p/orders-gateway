@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b2128f4-dfae-4c06-a096-d95ecedd1a58" name="Changes" comment="[orders-rmq-broker] 20.12.2024 +">
+    <list default="true" id="4b2128f4-dfae-4c06-a096-d95ecedd1a58" name="Changes" comment="[orders-rmq-broker] 20.12.2024 ...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rabbit_mq/producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/rabbit_mq/producer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rabbit_mq/publish.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/rabbit_mq/publish.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/andre/TyuiuRecSys&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.config">
+  <component name="RunManager" selected="Python.main">
     <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OrdersBroadcastAPI" />
       <option name="ENV_FILES" value="" />
@@ -134,10 +135,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.config" />
         <item itemvalue="Python.producer" />
         <item itemvalue="Python.connection" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +286,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734655458276</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="[orders-rmq-broker] 20.12.2024 ++">
+      <option name="closed" value="true" />
+      <created>1734660257329</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1734660257329</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[orders-rmq-broker] 20.12.2024 ...">
+      <option name="closed" value="true" />
+      <created>1734661460250</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1734661460250</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -305,6 +322,8 @@
     <MESSAGE value="[orders-rmq-broker] 20.12.2024 production" />
     <MESSAGE value="[orders-rmq-broker] 20.12.2024 fix connection" />
     <MESSAGE value="[orders-rmq-broker] 20.12.2024 +" />
-    <option name="LAST_COMMIT_MESSAGE" value="[orders-rmq-broker] 20.12.2024 +" />
+    <MESSAGE value="[orders-rmq-broker] 20.12.2024 ++" />
+    <MESSAGE value="[orders-rmq-broker] 20.12.2024 ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="[orders-rmq-broker] 20.12.2024 ..." />
   </component>
 </project>
