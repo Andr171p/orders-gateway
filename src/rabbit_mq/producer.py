@@ -17,13 +17,17 @@ class RabbitProducer(RabbitClient):
             body: str,
             headers: Dict[str, Any]
     ) -> None:
-        # await self.declare_exchange()
+        exchange = await self.declare_exchange()
         message = Message(
             body=body.encode('utf-8'),
             headers=headers,
             delivery_mode=DeliveryMode.PERSISTENT
         )
-        await self._channel.default_exchange.publish(
+        '''await self._channel.default_exchange.publish(
+            message=message,
+            routing_key=""
+        )'''
+        await exchange.publish(
             message=message,
             routing_key=""
         )
