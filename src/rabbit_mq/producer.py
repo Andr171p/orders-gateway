@@ -25,7 +25,7 @@ class RabbitProducer(RabbitClient):
         )
         await self._channel.default_exchange.publish(
             message=message,
-            routing_key=settings.rabbit.queue_name
+            # routing_key=settings.rabbit.queue_name
         )
         print(body)
         log.warning("Published message: %s", body)
