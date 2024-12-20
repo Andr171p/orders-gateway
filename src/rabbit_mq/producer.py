@@ -23,13 +23,8 @@ class RabbitProducer(RabbitClient):
             headers=headers,
             delivery_mode=DeliveryMode.PERSISTENT
         )
-        '''await self._channel.default_exchange.publish(
-            message=message,
-            routing_key=""
-        )'''
         await exchange.publish(
             message=message,
             routing_key=""
         )
-        print(body)
         log.warning("Published message: %s", body)

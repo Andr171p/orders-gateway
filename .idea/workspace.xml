@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b2128f4-dfae-4c06-a096-d95ecedd1a58" name="Changes" comment="[orders-rmq-broker] 20.12.2024 fic rabbit channel">
+    <list default="true" id="4b2128f4-dfae-4c06-a096-d95ecedd1a58" name="Changes" comment="[orders-rmq-broker] 20.12.2024 exchange publisher">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rabbit_mq/producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/rabbit_mq/producer.py" afterDir="false" />
     </list>
@@ -317,7 +317,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734664477117</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="[orders-rmq-broker] 20.12.2024 fix rabbit channel">
+      <option name="closed" value="true" />
+      <created>1734664833237</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1734664833237</updated>
+    </task>
+    <task id="LOCAL-00022" summary="[orders-rmq-broker] 20.12.2024 exchange publisher">
+      <option name="closed" value="true" />
+      <created>1734665274997</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1734665274997</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -341,6 +357,8 @@
     <MESSAGE value="[orders-rmq-broker] 20.12.2024 ..." />
     <MESSAGE value="[orders-rmq-broker] 20.12.2024 ...+" />
     <MESSAGE value="[orders-rmq-broker] 20.12.2024 fic rabbit channel" />
-    <option name="LAST_COMMIT_MESSAGE" value="[orders-rmq-broker] 20.12.2024 fic rabbit channel" />
+    <MESSAGE value="[orders-rmq-broker] 20.12.2024 fix rabbit channel" />
+    <MESSAGE value="[orders-rmq-broker] 20.12.2024 exchange publisher" />
+    <option name="LAST_COMMIT_MESSAGE" value="[orders-rmq-broker] 20.12.2024 exchange publisher" />
   </component>
 </project>
