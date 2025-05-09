@@ -18,10 +18,10 @@ class RabbitLocalSettings(BaseSettings):
 
 
 class RabbitSettings(BaseSettings):
-    user: str = os.getenv("RMQ_PUBLIC_USER")
-    password: str = os.getenv("RMQ_PUBLIC_PASSWORD")
-    host: str = os.getenv("RMQ_PUBLIC_HOST")
-    port: str = os.getenv("RMQ_PUBLIC_PORT")
+    user: str = "rmuser"
+    password: str = "rmpassword"
+    host: str = "localhost"
+    port: str = 5672
 
     url: str = f"amqp://{user}:{password}@{host}:{port}"
 
