@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b2128f4-dfae-4c06-a096-d95ecedd1a58" name="Changes" comment="10.05.2025" />
+    <list default="true" id="4b2128f4-dfae-4c06-a096-d95ecedd1a58" name="Changes" comment="10.05.2025 .">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +56,11 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/andre/TyuiuRecSys&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\OrdersBroadcastAPI" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OrdersBroadcastAPI" />
@@ -359,11 +367,26 @@
       <option name="project" value="LOCAL" />
       <updated>1746819603911</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="10.05.2025 fix rabbit connection">
+      <option name="closed" value="true" />
+      <created>1746820435766</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1746820435766</updated>
+    </task>
+    <task id="LOCAL-00026" summary="10.05.2025 .">
+      <option name="closed" value="true" />
+      <created>1746822700916</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1746822700916</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[orders-rmq-broker] 21.11.2024" />
     <MESSAGE value="[orders-rmq-broker] 27.11.2024" />
     <MESSAGE value="[orders-rmq-broker] 28.11.2024" />
     <MESSAGE value="[orders-rmq-broker] 28.11.2024 fix" />
@@ -387,6 +410,8 @@
     <MESSAGE value="[orders-rmq-broker] 20.12.2024 exchange publisher" />
     <MESSAGE value="[orders-rmq-broker] 20.12.2024 production v1" />
     <MESSAGE value="10.05.2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.05.2025" />
+    <MESSAGE value="10.05.2025 fix rabbit connection" />
+    <MESSAGE value="10.05.2025 ." />
+    <option name="LAST_COMMIT_MESSAGE" value="10.05.2025 ." />
   </component>
 </project>

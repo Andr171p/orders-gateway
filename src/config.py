@@ -20,7 +20,7 @@ class RabbitLocalSettings(BaseSettings):
 class RabbitSettings(BaseSettings):
     user: str = "rmuser"
     password: str = "rmpassword"
-    host: str = "localhost"
+    host: str = "rabbitmq"
     port: str = 5672
 
     url: str = f"amqp://{user}:{password}@{host}:{port}"
