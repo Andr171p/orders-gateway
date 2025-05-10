@@ -11,17 +11,11 @@ ENV_PATH: Path = BASE_DIR / ".env"
 load_dotenv(dotenv_path=ENV_PATH)
 
 
-class RabbitLocalSettings(BaseSettings):
-    host: str = os.getenv("RMQ_LOCAL_HOST")
-    port: int = os.getenv("RMQ_LOCAL_PORT")
-    url: str = f"amqp://{host}:{port}"
-
-
 class RabbitSettings(BaseSettings):
-    user: str = "rmuser"
-    password: str = "rmpassword"
-    host: str = "rabbitmq"
-    port: str = 5672
+    user: str = os.getenv("RABBIT_USER")
+    password: str = os.getenv("RABBIT_PASSWORD")
+    host: str = os.getenv("RABBIT_HOST")
+    port: str = os.getenv("RABBIT_PORT")
 
     url: str = f"amqp://{user}:{password}@{host}:{port}"
 
@@ -40,7 +34,6 @@ class APISettings(BaseSettings):
 
 class Settings(BaseSettings):
     api: APISettings = APISettings()
-    rabbit_local: RabbitLocalSettings = RabbitLocalSettings()
     rabbit: RabbitSettings = RabbitSettings()
     uvicorn: UvicornSettings = UvicornSettings()
 
